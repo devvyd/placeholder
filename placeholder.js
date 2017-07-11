@@ -1,9 +1,5 @@
 (function($) {
-	$.fn.placeholder = function(config) {
-
-		var settings = $.extend({
-			color: 'red'
-		}, config);
+	$.fn.placeholder = function() {
 
 		var $this = $(this);
 

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery placeholder plugin</title>
+
+</head>
+<body>
+	<input type="text" placeholder="Placeholder for input field">
+	<br><br>
+
+	<textarea placeholder="Just a placeholder for textarea"></textarea>
+	<br><br>
+
+	<!-- Scripts -->
+	<noscript>Please, turn on Javascript to test any JS code.</noscript>
+
+	<script src="https://code.jquery.com/jquery-1.12.0.js"></script>
+	<script src="placeholder.js"></script>
+
+	<script>
+		(function() {
+    		$('input, textarea').placeholder();
+		})();
+	</script>
+</body>
+</html>
